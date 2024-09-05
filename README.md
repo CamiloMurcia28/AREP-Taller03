@@ -1,5 +1,5 @@
 ### Escuela Colombiana de Ingenieria - Julio Garavito
-### Arquitectura Empresarial - AREP-LAB02
+### Arquitectura Empresarial - AREP-LAB03
 # WORKSHOP #3 - APPLICATION SERVER ARCHITECTURES, OBJECT META PROTOCOLS, IOC PATTERN, REFLECTION
 
 ## Name: Camilo Nicolas Murcia Espinosa
