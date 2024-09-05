@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package is.escuelaing.edu.co.springeci;
+package escuelaing.edu.co.springeci;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
