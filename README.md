@@ -75,6 +75,16 @@ SparkServer -->|GET Routes| ListAppointmentService
 AddMedAppointmentService -->|Relies on| MedAppointmentService
 
 ```
+## Running the tests ⚙️
+
+To run the tests, run the following command:
+
+```bash
+mvn test
+
+```
+
+In the tests we will be testing the functionalities such as server response, web requests, operation of both Spark and Spring
 
 ## Evaluation
 
