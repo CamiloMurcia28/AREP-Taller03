@@ -116,10 +116,11 @@ class ClientHandler implements Runnable {
                 parameterExists = true;
             }
         }
-        if (parameterExists){
+        if (!parameterExists){
             Object[] parameters = getParameters(springMethod, queryParams);
             response = (String) springMethod.invoke(null, parameters);
         } else {
+
             response = (String) springMethod.invoke(null);
         }
 

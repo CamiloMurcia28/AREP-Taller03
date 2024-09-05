@@ -9,7 +9,7 @@ function fetchSuggestedApps() {
             appointments.forEach(medAppointment => {
                 const row = document.createElement('tr');
                 const nameCell = document.createElement('td');
-                nameCell.textContent = medAppointment.name;
+                nameCell.textContent = medAppointment.docname;
                 row.appendChild(nameCell);
                 const tipoCell = document.createElement('td');
                 tipoCell.textContent = medAppointment.type;

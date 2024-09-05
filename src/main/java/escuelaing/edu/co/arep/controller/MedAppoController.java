@@ -21,7 +21,7 @@ import escuelaing.edu.co.springeci.RestController;
 public class MedAppoController {
     
     @RequestMapping(path = "/show/list", method = "GET")
-    public static String getMedAppointment(String calledServiceURI){
+    public static String suggested(String calledServiceURI){
         return ListAppointmentService.responseRecommended();
     }
     
